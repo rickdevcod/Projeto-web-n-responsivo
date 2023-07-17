@@ -1,0 +1,378 @@
+body, h1, h2, h3, p, ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu {
+  width: 100%;
+  height: 59px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+}
+
+.logo {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  margin-left: 1%;
+}
+
+.menu-nexus {
+  max-width: 100%;
+  float: left;
+}
+
+.menu-nexus li {
+  margin-top: 28px;
+  display: inline-block;
+}
+
+.menu-nexus a {
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-left: 35px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+}
+
+.loguin li {
+  display: inline-block;
+  margin-top: 23px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  padding-right: 70px;
+  font-size: 18px;
+}
+
+.loguin {
+  float: right;
+  margin-top: 4px;
+}
+
+.loguin a {
+  text-decoration: none;
+  color: rgb(166, 49, 212);
+}
+
+/* inicio da imagem após o topo*/
+.imagem {
+  background: url('../imagens/executivo.png') no-repeat center center;
+  background-size: cover;
+  height: 865px;
+}
+
+.imagem h1 {
+  padding: 410px 0 0 0;
+  margin-left: 220px;
+  margin-bottom: 10px;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.imagem h2 {
+  margin-left: 220px;
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.form {
+  box-sizing: border-box;
+  background: white;
+  max-width: 330px;
+  height: 300px;
+  float: right;
+  border-radius: 8px;
+  text-align: left;
+  padding: 20px;
+  margin-top: -205px;
+  margin-right: 40px;
+}
+
+.form h3 {
+  color: black;
+  font-size: 22px;
+  margin-bottom: 80px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.name {
+  color: #585858;
+  font-size: 20px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.botao {
+  background: #a631d4;
+  display: flex;
+  justify-content: space-between;
+  border: 0px;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.campo {
+  width: 100%;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
+/* final da imagem após o topo*/
+
+/* Inicio da sessão após 2*/
+.secao2 {
+  height: 800px;
+  background: rgb(0, 146, 255);
+  background: linear-gradient(
+    9deg,
+    rgba(0, 146, 255, 0.14889705882352944) 0%,
+    rgba(208, 3, 190, 0.022846638655462215) 100%,
+    rgba(55, 0, 255, 0.577468487394958) 100%
+  );
+}
+
+.secao2 h2 {
+  text-align: left;
+  font-family: 'Cabin', sans-serif;
+  font-size: 45px;
+  margin-left: 220px;
+  margin-top: 270px;
+}
+
+.secao2 h2 a {
+  color: rgb(166, 49, 212);
+  text-decoration: none;
+}
+
+.secao2 h3 {
+  text-align: left;
+  font-family: 'Cabin', sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-left: 220px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.img-cartao {
+  float: left;
+  width: 55%;
+  margin-top: 170px;
+}
+
+.cartao {
+  float: left;
+  width: 45%;
+}
+
+.link2 {
+  margin-left: 220px;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  color: rgb(166, 49, 212);
+}
+
+/* Final da sessão 2*/
+
+/* Inicio da sessão 3*/
+.secao3 {
+  height: 800px;
+  background: rgb(255, 0, 189);
+  background: linear-gradient(
+    9deg,
+    rgba(255, 0, 189, 0.04525560224089631) 0%,
+    rgba(208, 3, 190, 0.022846638655462215) 100%,
+    rgba(55, 0, 255, 0.577468487394958) 100%
+  );
+}
+
+.secao3 h2 {
+  text-align: left;
+  font-family: 'Cabin', sans-serif;
+  font-size: 40px;
+  margin-left: 220px;
+}
+
+.secao3 h2 a {
+  text-decoration: none;
+  color: rgb(166, 49, 212);
+}
+
+.secao3 h3 {
+  text-align: left;
+  font-family: 'Cabin', sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-left: 220px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.link3 {
+  margin-left: 220px;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  color: rgb(166, 49, 212);
+}
+
+.violeta {
+  float: left;
+  margin-top: 170px;
+}
+
+.credito-para-construcao {
+  width: 45%;
+  float: left;
+  margin-top: 190px;
+}
+
+/* Final da seção 3*/
+
+/* Inicio da seção 4*/
+.secao4 {
+  height: 800px;
+  background: #f5f5f5;
+}
+
+.secao4 h2 {
+  text-align: left;
+  font-family: 'Cabin', sans-serif;
+  font-size: 40px;
+  margin-left: 220px;
+  color: rgb(166, 49, 212);
+}
+
+.secao4 h2 a {
+  text-decoration: none;
+}
+
+.secao4 h3 {
+  text-align: left;
+  font-family: 'Cabin', sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-left: 220px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.link4 {
+  margin-left: 220px;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  color: rgb(166, 49, 212);
+}
+
+.cartao-conta {
+  width: 45%;
+  float: left;
+  margin-top: 350px;
+}
+
+.cartao4 {
+  width: 55%;
+  float: left;
+  margin-top: 250px;
+}
+
+/* Final da seção 4*/
+
+/* Inicio da seção 5*/
+.secao5 {
+  background: url('../imagens/grafico.jpg') no-repeat center center;
+  background-size: cover;
+  height: 860px;
+}
+
+.secao5 h2 {
+  padding: 337px 0 0;
+  margin-left: 220px;
+  margin-bottom: 20px;
+  font-size: 48px;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+}
+
+.link5 {
+  margin-left: 220px;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  color: rgb(166, 49, 212);
+}
+
+/* Final da seção 5*/
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    height: auto;
+    position: relative;
+  }
+
+  .logo {
+    float: none;
+    margin: 10px auto;
+  }
+
+  .menu-nexus li {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .loguin li {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding-right: 0;
+  }
+
+  .form {
+    float: none;
+    margin: 10px auto;
+  }
+
+  .secao2 h2,
+  .secao3 h2,
+  .secao4 h2,
+  .secao5 h2 {
+    margin-left: 10px;
+  }
+
+  .secao2 h2,
+  .secao3 h2,
+  .secao4 h2,
+  .secao5 h2,
+  .secao2 h3,
+  .secao3 h3,
+  .secao4 h3 {
+    text-align: center;
+  }
+
+  .img-cartao,
+  .cartao {
+    float: none;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .credito-para-construcao,
+  .cartao-conta {
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+  }
+}
